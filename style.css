@@ -1,0 +1,99 @@
+body{
+    /* Set the background image of the body */
+    background-image: url(assets/images/stopwatch-PhotoRoom.jpg);
+    
+    /* Position the background image at the center */
+    background-position: center;
+    
+    /* Prevent the background image from repeating */
+    background-repeat: no-repeat;
+    
+    /* Set a background color as a fallback */
+    background-color: rgba(248,248,248,255);
+    
+    /* Use flexbox to center the content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Set a minimum height of 90% of the viewport height */
+    min-height: 90vh;
+}
+
+/* Styling for the heading */
+.heading{
+    padding-bottom: 50px;
+}
+
+/* Styling for the stopwatch container */
+.stopWatch{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling for the timer display */
+.displayTimer{
+    /* Set the background color */
+    background-color:rgba(248,248,248,255);
+    
+    /* Set the font size */
+    font-size:xx-large;
+    
+    /* Add padding */
+    padding: 10px;
+}
+
+/* Styling for the start button */
+.startBtn{
+    /* Set the background image */
+    background-image:url(assets/images/start.png);
+    
+    /* Adjust the image size as needed */
+    background-size: cover;
+    
+    /* Add padding to the button */
+    padding: 30px 30px;
+    
+    /* Remove the button border if desired */
+    border: none;
+    
+    /* Set the cursor style to pointer */
+    cursor: pointer;
+}
+
+/* Styling for the stop button */
+.stopBtn{
+    /* Set the background image */
+    background-image:url(assets/images/pause.png);
+    
+    /* Adjust the image size as needed */
+    background-size: cover;
+    
+    /* Add padding to the button */
+    padding: 20px 20px;
+    
+    /* Remove the button border if desired */
+    border: none;
+    
+    /* Set the cursor style to pointer */
+    cursor: pointer;
+}
+
+/* Styling for the reset button */
+.resetBtn{
+    /* Set the background image */
+    background-image:url(assets/images/redreset.png);
+    
+    /* Adjust the image size as needed */
+    background-size: cover;
+    
+    /* Add padding to the button */
+    padding: 20px 20px;
+    
+    /* Remove the button border if desired */
+    border: none;
+    
+    /* Set the cursor style to pointer */
+    cursor: pointer;
+}
