@@ -1,6 +1,6 @@
 body{
     /* Set the background image of the body */
-    background-image: url(assets/images/stopwatch-PhotoRoom.jpg);
+    background-image: url(./assets/images/stopwatch-PhotoRoom.jpg);
     
     /* Position the background image at the center */
     background-position: center;
@@ -47,7 +47,7 @@ body{
 /* Styling for the start button */
 .startBtn{
     /* Set the background image */
-    background-image:url(assets/images/start.png);
+    background-image:url(./assets/images/start.png);
     
     /* Adjust the image size as needed */
     background-size: cover;
@@ -65,7 +65,7 @@ body{
 /* Styling for the stop button */
 .stopBtn{
     /* Set the background image */
-    background-image:url(assets/images/pause.png);
+    background-image:url(./assets/images/pause.png);
     
     /* Adjust the image size as needed */
     background-size: cover;
@@ -83,7 +83,7 @@ body{
 /* Styling for the reset button */
 .resetBtn{
     /* Set the background image */
-    background-image:url(assets/images/redreset.png);
+    background-image:url(./assets/images/redreset.png);
     
     /* Adjust the image size as needed */
     background-size: cover;
